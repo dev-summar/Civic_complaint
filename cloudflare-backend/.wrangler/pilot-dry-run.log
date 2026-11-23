@@ -1,0 +1,120 @@
+
+--- 2026-11-04T14:29:06.131Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\pilot-dry-run.log"
+---
+
+--- 2026-11-04T14:29:06.131Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793802546130,"properties":{"amplitude_session_id":1793802546113,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["dryRun"],"argsCombination":"dryRun","command":"wrangler deploy","args":{}}}
+---
+
+--- 2026-11-04T14:29:06.191Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T14:29:06.403Z debug
+Metrics dispatcher: Failed to send request: fetch failed
+---
+
+--- 2026-11-04T14:29:06.405Z log
+
+ ⛅️ wrangler 3.114.17
+---------------------
+
+---
+
+--- 2026-11-04T14:29:06.880Z log
+Total Upload: 290.02 KiB / gzip: 59.67 KiB
+---
+
+--- 2026-11-04T14:29:06.886Z log
+Your worker has access to the following bindings:
+- Durable Objects:
+  - BROADCASTER: BroadcasterDO
+- D1 Databases:
+  - DB: swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef)
+- AI:
+  - Name: AI
+- Vars:
+  - ENVIRONMENT: "production"
+  - JWT_SECRET: "swachhsetu_jwt_secret_free_tier_2026_..."
+---
+
+--- 2026-11-04T14:29:06.895Z log
+--dry-run: exiting now.
+---
+
+--- 2026-11-04T14:29:06.900Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"deploy worker script","timestamp":1793802546900,"properties":{"category":"Workers","wranglerVersion":"3.114.17","os":"win32:x64","usesTypeScript":true,"durationMs":384}}
+---
+
+--- 2026-11-04T14:29:06.908Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793802546908,"properties":{"amplitude_session_id":1793802546113,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["dryRun"],"argsCombination":"dryRun","command":"wrangler deploy","args":{},"durationMs":834,"durationSeconds":0.834,"durationMinutes":0.0139}}
+---
+
+--- 2026-11-04T14:29:06.919Z debug
+Metrics dispatcher: Failed to send request: fetch failed
+---
+
+--- 2026-11-04T14:29:06.921Z debug
+Metrics dispatcher: Failed to send request: fetch failed
+---
+
+--- 2026-11-04T14:31:17.972Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\pilot-dry-run.log"
+---
+
+--- 2026-11-04T14:31:17.971Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793802677971,"properties":{"amplitude_session_id":1793802677965,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["dryRun"],"argsCombination":"dryRun","command":"wrangler deploy","args":{}}}
+---
+
+--- 2026-11-04T14:31:17.982Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T14:31:18.067Z debug
+Metrics dispatcher: Failed to send request: fetch failed
+---
+
+--- 2026-11-04T14:31:18.069Z log
+
+ ⛅️ wrangler 3.114.17
+---------------------
+
+---
+
+--- 2026-11-04T14:31:18.434Z log
+Total Upload: 292.83 KiB / gzip: 59.99 KiB
+---
+
+--- 2026-11-04T14:31:18.438Z log
+Your worker has access to the following bindings:
+- Durable Objects:
+  - BROADCASTER: BroadcasterDO
+- D1 Databases:
+  - DB: swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef)
+- AI:
+  - Name: AI
+- Vars:
+  - ENVIRONMENT: "production"
+  - JWT_SECRET: "swachhsetu_jwt_secret_free_tier_2026_..."
+---
+
+--- 2026-11-04T14:31:18.441Z log
+--dry-run: exiting now.
+---
+
+--- 2026-11-04T14:31:18.443Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"deploy worker script","timestamp":1793802678443,"properties":{"category":"Workers","wranglerVersion":"3.114.17","os":"win32:x64","usesTypeScript":true,"durationMs":309}}
+---
+
+--- 2026-11-04T14:31:18.450Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793802678450,"properties":{"amplitude_session_id":1793802677965,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["dryRun"],"argsCombination":"dryRun","command":"wrangler deploy","args":{},"durationMs":509,"durationSeconds":0.509,"durationMinutes":0.008483333333333334}}
+---
+
+--- 2026-11-04T14:31:18.456Z debug
+Metrics dispatcher: Failed to send request: fetch failed
+---
+
+--- 2026-11-04T14:31:18.456Z debug
+Metrics dispatcher: Failed to send request: fetch failed
+---

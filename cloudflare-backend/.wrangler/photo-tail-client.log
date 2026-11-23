@@ -1,0 +1,52 @@
+
+--- 2026-11-12T10:44:39.263Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\photo-tail-client.log"
+---
+
+--- 2026-11-12T10:44:39.263Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1794480279262,"properties":{"amplitude_session_id":1794480279259,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["format"],"argsCombination":"format","command":"wrangler tail","args":{"format":"json"}}}.
+---
+
+--- 2026-11-12T10:44:39.266Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-12T10:44:39.279Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"begin log stream","timestamp":1794480279279,"properties":{"category":"Workers","wranglerVersion":"3.114.17","os":"win32:x64"}}.
+---
+
+--- 2026-11-12T10:44:39.280Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/tails
+---
+
+--- 2026-11-12T10:44:39.281Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-12T10:44:39.281Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-12T10:44:39.281Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-12T10:44:40.565Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-12T10:44:40.566Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-12T10:44:40.566Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-12T10:44:40.566Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-12T10:44:44.255Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1794480284255,"properties":{"amplitude_session_id":1794480279259,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["format"],"argsCombination":"format","command":"wrangler tail","args":{"format":"json"},"durationMs":5015,"durationSeconds":5.015,"durationMinutes":0.08358333333333333}}.
+---

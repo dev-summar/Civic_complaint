@@ -1,0 +1,2752 @@
+{
+  "wallTime": 1627,
+  "cpuTime": 17,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "tailAttributes": {
+    "cron": "*/5 * * * *",
+    "scheduledTime": 1794501035645
+  },
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "entrypoint": "default",
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501036365,
+  "event": {
+    "cron": "*/5 * * * *",
+    "scheduledTime": 1794501035645
+  }
+}
+{
+  "wallTime": 132,
+  "cpuTime": 9,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501043501,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/auth/login",
+      "method": "POST",
+      "headers": {
+        "accept-encoding": "gzip, br",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ec40ef80fd20",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "50",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26300; en-IN) PowerShell/7.6.9",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "Host",
+          "User-Agent",
+          "Accept-Encoding",
+          "Content-Type",
+          "Content-Length"
+        ],
+        "clientTcpRtt": 168,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "ChJIEybbkXQNM2ajArnLpoADNEEpJLD76MYDwLJShnI=",
+        "tlsClientCiphersSha1": "kTkJ+HAwBvIuoPFncb1wEDLcgfg=",
+        "tlsClientExtensionsSha1": "Bxwn0Bs0z+5dY69ZcqleTRGmlpE=",
+        "tlsClientExtensionsSha1Le": "sb2ftGg4/laBHA9Q/MJ4X/0+cJY=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "a91df6b7b18908e91432956b63de39b0eb0ae38599317c7fe8ee5a4c3a06f95323d81e0530ca7b5de7f000c71136becf",
+          "serverHandshake": "20bdb0cece60a2c1eb645c23b6ac612ca8fe07a2a452b10b568407f53438108c3ce08ad6747c91a5ec262badf1bb50b7",
+          "clientFinished": "d8a99a2671fd66391432d4837f7f8632ea3f7d015b4ada779b779acc2f594a095c16f246a6d0c45a6696faa1a241c710",
+          "serverFinished": "730bd886bd2a77500dc5abfca1e16ce95e2fd982735352a4061e33f354ca09b2da08733e2038fa7ae219a1619aa43df1"
+        },
+        "tlsClientHelloLength": "455",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 28783
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 1061,
+  "cpuTime": 17,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501044235,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept-encoding": "gzip, br",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ec456ae77d30",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "145",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26300; en-IN) PowerShell/7.6.9",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "Host",
+          "Authorization",
+          "User-Agent",
+          "Accept-Encoding",
+          "Content-Type",
+          "Content-Length"
+        ],
+        "clientTcpRtt": 83,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "Xww30fKlbsP+hm9vdAkUUyPlKjANUHzjTx2c2/gusGM=",
+        "tlsClientCiphersSha1": "kTkJ+HAwBvIuoPFncb1wEDLcgfg=",
+        "tlsClientExtensionsSha1": "lf5q7awZSBiIczJVKjOX/yrO1/8=",
+        "tlsClientExtensionsSha1Le": "GEbde1I7IelzRL2Iu/DQxSXdJak=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "cee35f81f05da964a2df78b3a1670b6eccb4ca301f4b7282001c4d75b5a64786ba9f62ea79e2c91303c6ca39c26583b9",
+          "serverHandshake": "d5d6251d8ae4dca4b2d67ff58a7e13b29825af0bba050f745a9d80f29f22524dafebc3511d4b02114f8926812906fdaf",
+          "clientFinished": "db70ea9d3053f3b841b0b59fea6293f49533f06e0a8cdb02b65a9ac3f33c02867182abff4ec68a7b8d8c14a65581252a",
+          "serverFinished": "35ba754812d731a80c6aac563c6b17d57cffa9994a60f6b736ef8569960957a875b355f9d4153fd9424b63f61476b634"
+        },
+        "tlsClientHelloLength": "710",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 13938
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 6,
+  "cpuTime": 5,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501081758,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/health",
+      "method": "GET",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed30c8d3f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding"
+        ],
+        "clientTcpRtt": 91,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 15622
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 123,
+  "cpuTime": 10,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501082204,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/auth/login",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed334e8c3ccf",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "50",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 90,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "icGNRYBYf5/x4UjVUibVr0oCj8Rd6QA3GvYRBrabNhg=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "GWeb1cCR2UBICwtIDbeP9YjL/PU=",
+        "tlsClientExtensionsSha1Le": "LddRTv85Gcz7xx7AQg+t+GZR5bs=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "5766b7347d2a092bdf00ea9d9863cdaa67ebbec9d788a88cedacacfc29777907f41d3c9b6aa8e3315bd7ae907a5b7180",
+          "serverHandshake": "d2e80a41fa07cdba31168cbe7fbb8470bb08eb3d8b72b93685a9bba1f00087f4a6532695ad8bb0dcbd8638a223f93aa1",
+          "clientFinished": "331291c2ac1b92e1999a4cd6b109da45c39e283c25f1e6101466da163c32127baba4fec146053b8255ef2b2ce1df3248",
+          "serverFinished": "49749591453c688ada5acaadfbbab6a958fcfe3c74008d637c551b1b0f8a11009ab4fd18e385da2496fae7e7a973acfe"
+        },
+        "tlsClientHelloLength": "672",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 14192
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 681,
+  "cpuTime": 7,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501082471,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed353bd0f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "82",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 105,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 22016
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 1309,
+  "cpuTime": 2,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501083298,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed3a5895f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "120",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 104,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 1164,
+  "cpuTime": 2,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501084833,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed4428eaf8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "94",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 130,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 526,
+  "cpuTime": 2,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501086198,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed4c9cdff8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "115",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 133,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 1604,
+  "cpuTime": 4,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501086879,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed50cf17f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "204",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 131,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 793,
+  "cpuTime": 3,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501088648,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed5bea36f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "145",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 131,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 612,
+  "cpuTime": 2,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501089552,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed61a884f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "111",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 126,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 553,
+  "cpuTime": 1,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501090398,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed66cce0f8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "107",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 135,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 575,
+  "cpuTime": 1,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "4de56acb-6b10-454b-b937-4897ee446aea"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501091214,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596ed6bea9ef8f8",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "245",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 147,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "9/a8ZQ/FCk2fENeTydu4FE+pNhSLMeNqTD2Iu7EVrpo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f2746d567a7cb4dfde19ef574a02c0ac786fe5186a14f2f472164fd4a6d8e5c5cebbb2136c4c9d1722f5c0e8260538fa",
+          "serverHandshake": "a599305b319c27df7c94c800164b502f4edc6e0000cc66955b676e0449a51ffc6e38d2abbbeb72adbf360d5dc549fa82",
+          "clientFinished": "17d79587c074e8ac23b34aa6adb9014316d9da78856f1c9c5f9e3f16cfe7bcdfb9d68a0b5de14781e05f53a9be02b96c",
+          "serverFinished": "5e3d1ff91f72b29e15f6bda6605ae946700df605dfefd51262947c8c74a9a3b0dc17c307919592b14f99106d679ed49e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 26710
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 8,
+  "cpuTime": 6,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501243011,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/health",
+      "method": "GET",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f120ab36f916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding"
+        ],
+        "clientTcpRtt": 82,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 43301
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 221,
+  "cpuTime": 9,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501243401,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/auth/login",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f122da05b00b",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "50",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 98,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "z9tMjdUzm+FGtCe7mzGqHk99rear3Gmxyl0nmlxX/b0=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "e8274e4fac63a07fd8562b62445a07515506c6940342045052a626ad0781f43fce61e5234475fb2034561cee99a882ae",
+          "serverHandshake": "169579a3711d3cebac06215c448ab28d1018061421f807a259e7683bd41418f93819cedc42199ef88238f8a0f0aa15cc",
+          "clientFinished": "a2f372e1fb9dc58add963c7122182d979fd0b84791f3be8f0e43b1f6451dec34f9b6f7c378381e9deaef13025059b5d4",
+          "serverFinished": "d59c91d906f176f15d240aa9ba749602873901e3fdcb116c5dade00fd585b377986fd0f7ce1a1f1d6dddb13db7b40f42"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 38623
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 771,
+  "cpuTime": 18,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501243756,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f125488ff916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "82",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 82,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 703,
+  "cpuTime": 2,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501244623,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f12adf3ff916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "120",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 82,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 770,
+  "cpuTime": 6,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501245437,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f12fdccef916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "94",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 653,
+  "cpuTime": 1,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501246326,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f1355ac9f916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "115",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 1076,
+  "cpuTime": 1,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501247213,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f13ae8d5f916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "204",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 461,
+  "cpuTime": 4,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501249551,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f149ae70f916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "145",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 651,
+  "cpuTime": 1,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501252523,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f15c381af916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "111",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 569,
+  "cpuTime": 2,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501253745,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f163ebb5f916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "107",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 562,
+  "cpuTime": 1,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "f4d0524c-b858-43f2-9c28-6447431e7fa3"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794501254585,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/report-chat",
+      "method": "POST",
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, br",
+        "accept-language": "*",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "122.161.242.112",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a596f168fb84f916",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "245",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "sec-fetch-mode": "cors",
+        "user-agent": "node",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "122.161.242.112"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "host",
+          "connection",
+          "Content-Type",
+          "Authorization",
+          "accept",
+          "accept-language",
+          "sec-fetch-mode",
+          "user-agent",
+          "accept-encoding",
+          "content-length"
+        ],
+        "clientTcpRtt": 81,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 24560,
+        "asOrganization": "Bharti Airtel Ltd.,224, Okhla industrial Area Phase III New Delhi",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "IYiDVs3uIh/EGbvpTwi0dDyVh4g5J11ENx9tFnCGjjo=",
+        "tlsClientCiphersSha1": "JZtiTn8H/ntxORk+XXvU2EvNoz8=",
+        "tlsClientExtensionsSha1": "Y7DIC8A6G0/aXviZ8ie/xDbJb7g=",
+        "tlsClientExtensionsSha1Le": "6e+q3vPm88rSgMTN/h7WTTxQ2wQ=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "f9363627b9f25e54a3fe880cc2fa635ec1bb9d598d9afd3385f5144c45dced9640df6bdec6d3519e25772d772405bd62",
+          "serverHandshake": "aa0d8e9aa53db69e929b7823152d17716fb34ea24f5c5cc2bbde80412f34c550af869b23abc408d52c8dd5934c06dc60",
+          "clientFinished": "4130aec5b47c790bfea0dcae47ef1d8b47a90915f7fc48ff4fd6327979278848b9af1f1a179affdb828fe6d98a902546",
+          "serverFinished": "79bc4010a5edf95e6b412d2b58dfb76aaf54b36bd4b3eef5ae8dfc0f702c19bbcb260e440dc903881e9913996ead6c1e"
+        },
+        "tlsClientHelloLength": "401",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 46439
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}

@@ -1,0 +1,378 @@
+
+--- 2026-11-05T08:43:21.624Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\normal-label-flow-deploy.log"
+---
+
+--- 2026-11-05T08:43:21.624Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793868201623,"properties":{"amplitude_session_id":1793868201617,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":[],"argsCombination":"","command":"wrangler deploy","args":{}}}.
+---
+
+--- 2026-11-05T08:43:21.628Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-05T08:43:21.651Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-05T08:43:22.757Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-05T08:43:22.865Z debug
+Starting verifyWorkerMatchesCITag() with tag: undefined, name: swachhsetu-api
+---
+
+--- 2026-11-05T08:43:22.865Z debug
+No WRANGLER_CI_MATCH_TAG variable provided, aborting verifyWorkerMatchesCITag()
+---
+
+--- 2026-11-05T08:43:22.867Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/services/swachhsetu-api
+---
+
+--- 2026-11-05T08:43:22.867Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:22.867Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:22.867Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:27.596Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:27.600Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:27.600Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:27.600Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:27.608Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/deployments
+---
+
+--- 2026-11-05T08:43:27.608Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:27.608Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:27.608Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:28.708Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:28.709Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:28.709Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:28.709Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:29.164Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts
+---
+
+--- 2026-11-05T08:43:29.164Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:29.164Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:29.164Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:30.485Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:30.486Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:30.486Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:30.486Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:30.501Z log
+Total Upload: 298.36 KiB / gzip: 61.54 KiB
+---
+
+--- 2026-11-05T08:43:30.509Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/versions
+---
+
+--- 2026-11-05T08:43:30.509Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:30.509Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:30.518Z debug
+BODY: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:30.518Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:32.949Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:32.949Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:32.949Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:32.949Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:32.952Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/deployments
+---
+
+--- 2026-11-05T08:43:32.952Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:32.952Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:32.952Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:34.193Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:34.194Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:34.194Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:34.194Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:34.194Z debug
+-- START CF API REQUEST: PATCH https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/script-settings
+---
+
+--- 2026-11-05T08:43:34.194Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:34.194Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:34.195Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:35.416Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:35.417Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:35.417Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:35.417Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:35.417Z log
+Worker Startup Time: 10 ms
+---
+
+--- 2026-11-05T08:43:35.420Z log
+Your worker has access to the following bindings:
+- Durable Objects:
+  - BROADCASTER: BroadcasterDO
+- D1 Databases:
+  - DB: swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef)
+- AI:
+  - Name: AI
+- Vars:
+  - ENVIRONMENT: "production"
+  - JWT_SECRET: "swachhsetu_jwt_secret_free_tier_2026_..."
+---
+
+--- 2026-11-05T08:43:35.425Z log
+Uploaded swachhsetu-api (7.82 sec)
+---
+
+--- 2026-11-05T08:43:35.426Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/subdomain
+---
+
+--- 2026-11-05T08:43:35.426Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:35.426Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:35.426Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:36.539Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:36.539Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:36.539Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:36.539Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:36.540Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/subdomain
+---
+
+--- 2026-11-05T08:43:36.540Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:36.540Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:36.540Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:37.867Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+-- START CF API REQUEST: PUT https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/workers/scripts/swachhsetu-api/schedules
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:37.868Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:43:39.204Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:43:39.204Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:39.204Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:43:39.204Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:43:39.205Z log
+Deployed swachhsetu-api triggers (2.67 sec)
+---
+
+--- 2026-11-05T08:43:39.205Z log
+  https://swachhsetu-api.summar-adm.workers.dev
+---
+
+--- 2026-11-05T08:43:39.206Z log
+  schedule: */5 * * * *
+---
+
+--- 2026-11-05T08:43:39.206Z log
+Current Version ID: d3cb0c7d-a8ba-41d3-805d-aacdbd54ce44
+---
+
+--- 2026-11-05T08:43:39.211Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"deploy worker script","timestamp":1793868219211,"properties":{"category":"Workers","wranglerVersion":"3.114.17","os":"win32:x64","usesTypeScript":true,"durationMs":16343}}.
+---
+
+--- 2026-11-05T08:43:39.227Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793868219227,"properties":{"amplitude_session_id":1793868201617,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":[],"argsCombination":"","command":"wrangler deploy","args":{},"durationMs":17628,"durationSeconds":17.628,"durationMinutes":0.2938}}.
+---

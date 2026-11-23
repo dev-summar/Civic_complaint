@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0F3D3E" />
+    <title>SwachhSetu – Geo-Tagged Citizen Grievance & Civic Response Platform</title>
+    <!-- Clash Display (headings) + General Sans fallback — Fontshare -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&f[]=general-sans@400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Inter (body), Noto Sans Devanagari (Hindi), Space Mono (stats) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --color-primary: #0f3d3e;
+        --color-primary-light: #1b5c5d;
+        --color-action: #ff7a1a;
+        --color-success: #2e8b57;
+        --color-warning: #e0a800;
+        --color-info: #6c5ce7;
+        --color-neutral-500: #8a928f;
+        --color-bg: #f6f7f5;
+        --color-surface: #ffffff;
+        --color-text: #12201f;
+        --radius-card: 20px;
+        --radius-button: 14px;
+        --radius-full: 9999px;
+        --shadow-card: 0 8px 24px rgba(15, 61, 62, 0.08);
+        --font-display: 'Clash Display', 'General Sans', 'Noto Sans Devanagari', 'Noto Sans Arabic', system-ui, sans-serif;
+        --font-body: 'Inter', 'Noto Sans Devanagari', 'Noto Sans Arabic', system-ui, sans-serif;
+        --font-mono: 'Space Mono', ui-monospace, monospace;
+      }
+      .font-display {
+        font-family: var(--font-display);
+      }
+      .font-body {
+        font-family: var(--font-body);
+      }
+      .font-mono {
+        font-family: var(--font-mono);
+      }
+      html,
+      body,
+      #root {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        font-family: var(--font-body);
+        font-variant-numeric: tabular-nums;
+        background: #f7f8f7;
+        color: #111827;
+        -webkit-font-smoothing: antialiased;
+      }
+      button:focus,
+      [role='button']:focus,
+      a:focus,
+      input:focus,
+      textarea:focus {
+        outline: none;
+      }
+      button:focus-visible,
+      [role='button']:focus-visible,
+      a:focus-visible,
+      input:focus-visible,
+      textarea:focus-visible {
+        outline: 2px solid #0f3d3a;
+        outline-offset: 2px;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+      }
+      h1,
+      h2,
+      h3,
+      .heading {
+        font-family: var(--font-display);
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.web.tsx"></script>
+  </body>
+</html>

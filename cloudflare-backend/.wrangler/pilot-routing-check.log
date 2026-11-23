@@ -1,0 +1,119 @@
+
+--- 2026-11-04T15:04:15.204Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\pilot-routing-check.log"
+---
+
+--- 2026-11-04T15:04:15.204Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793804655204,"properties":{"amplitude_session_id":1793804655200,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-04T15:04:15.207Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T15:04:15.221Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T15:04:15.937Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T15:04:15.944Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-04T15:04:15.944Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-04T15:04:15.946Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-04T15:04:15.946Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-04T15:04:15.947Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/query
+---
+
+--- 2026-11-04T15:04:15.947Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:04:15.947Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:04:15.947Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T15:04:17.006Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T15:04:17.007Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:04:17.007Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:04:17.007Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T15:04:17.008Z log
+🚣 Executed 1 command in 1.46ms
+---
+
+--- 2026-11-04T15:04:17.008Z log
+[
+  {
+    "results": [
+      {
+        "configured_rules": 0,
+        "enabled_rules": 0,
+        "enabled_with_eligible_staff": 0,
+        "automatic_assignments": 0,
+        "reports_without_matching_route": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 1.461
+      },
+      "duration": 1.461,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 303104,
+      "rows_read": 4,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-04T15:04:17.012Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793804657012,"properties":{"amplitude_session_id":1793804655200,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{},"durationMs":1830,"durationSeconds":1.83,"durationMinutes":0.030500000000000003}}.
+---

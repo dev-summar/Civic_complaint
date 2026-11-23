@@ -1,0 +1,173 @@
+{
+  "testedAt": "2026-11-12T14:53:01.958Z",
+  "results": [
+    {
+      "language": "en",
+      "text": "Hello, can you help me?",
+      "elapsedMs": 1208,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Hello! What's the problem?",
+        "spokenReply": "हैलो! क्या समस्या है?",
+        "draft": null
+      },
+      "status": 200
+    },
+    {
+      "language": "hi",
+      "text": "मुझे एक शिकायत करनी है।",
+      "elapsedMs": 1122,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "कृपया शिकायत का विवरण दें।",
+        "spokenReply": "कृपया शिकायत का विवरण दें।",
+        "draft": null
+      },
+      "status": 200
+    },
+    {
+      "language": "hinglish",
+      "text": "Mujhe ek complaint karni hai.",
+      "elapsedMs": 1115,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Kya aapko koi specific problem bata sakte hain?",
+        "spokenReply": "क्या आपको कोई स्पेसिफिक प्रॉब्लम बता सकते हैं?",
+        "draft": null
+      },
+      "status": 200
+    },
+    {
+      "language": "en",
+      "text": "The drain outside the school is blocked and overflowing.",
+      "elapsedMs": 1879,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Got it. Check the details, then tap the problem’s location on the map.",
+        "spokenReply": "Got it. Check the details, then tap the problem’s location on the map.",
+        "draft": {
+          "title": "Drain outside school is blocked and overflowing",
+          "description": "The drain outside the school is blocked and overflowing, causing water to spread.",
+          "category": "sewage_overflow"
+        }
+      },
+      "status": 200
+    },
+    {
+      "language": "hi",
+      "text": "स्कूल के बाहर नाली बंद है और गंदा पानी सड़क पर बह रहा है।",
+      "elapsedMs": 3549,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "ठीक है। शिकायत की जानकारी जाँच लें, फिर नक्शे पर समस्या की जगह चुनें।",
+        "spokenReply": "ठीक है। शिकायत की जानकारी जाँच लें, फिर नक्शे पर समस्या की जगह चुनें।",
+        "draft": {
+          "title": "स्कूल के बाहर नाली बंद है",
+          "description": "स्कूल के बाहर नाली बंद है और गंदा पानी सड़क पर बह रहा है।",
+          "category": "sewage_overflow"
+        }
+      },
+      "status": 200
+    },
+    {
+      "language": "hinglish",
+      "text": "School ke bahar naali overflow ho rahi hai, bachchon ko nikalne mein dikkat hai.",
+      "elapsedMs": 3849,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Theek hai. Complaint ki details check kar lein, phir map par problem ki jagah chunein.",
+        "spokenReply": "ठीक है। कम्प्लेंट की डिटेल्स चेक कर लें, फिर मैप पर प्रॉब्लम की जगह चुनें।",
+        "draft": {
+          "title": "School ke bahar naali overflow",
+          "description": "School ke bahar naali overflow ho rahi hai, bachchon ko nikalne mein dikkat hai.",
+          "category": "sewage_overflow"
+        }
+      },
+      "status": 200
+    },
+    {
+      "language": "hinglish",
+      "text": "Gali ki streetlight teen din se nahi jal rahi.",
+      "elapsedMs": 1453,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Theek hai. Complaint ki details check kar lein, phir map par problem ki jagah chunein.",
+        "spokenReply": "ठीक है। कम्प्लेंट की डिटेल्स चेक कर लें, फिर मैप पर प्रॉब्लम की जगह चुनें।",
+        "draft": {
+          "title": "Streetlight nahi jal rahi",
+          "description": "Gali ki streetlight teen din se nahi jal rahi.",
+          "category": "broken_streetlights"
+        }
+      },
+      "status": 200
+    },
+    {
+      "language": "en",
+      "text": "A water supply pipe is leaking outside my house.",
+      "elapsedMs": 1469,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Got it. Check the details, then tap the problem’s location on the map.",
+        "spokenReply": "Got it. Check the details, then tap the problem’s location on the map.",
+        "draft": {
+          "title": "Leaking water supply pipe",
+          "description": "A water supply pipe is leaking outside the house.",
+          "category": "water_leakage"
+        }
+      },
+      "status": 200
+    },
+    {
+      "language": "hinglish",
+      "text": "Nahi, light theek hai. Correction: sadak par bada gaddha hai.",
+      "elapsedMs": 1656,
+      "checks": {
+        "status": true,
+        "category": true,
+        "spoken": true
+      },
+      "data": {
+        "reply": "Theek hai. Complaint ki details check kar lein, phir map par problem ki jagah chunein.",
+        "spokenReply": "ठीक है। कम्प्लेंट की डिटेल्स चेक कर लें, फिर मैप पर प्रॉब्लम की जगह चुनें।",
+        "draft": {
+          "title": "Sadak par bada gaddha hai",
+          "description": "Sadak par bada gaddha hai. Jagah kaun si hai?",
+          "category": "potholes"
+        }
+      },
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+
+ ⛅️ wrangler 3.114.17 (update available 4.160.1)
+------------------------------------------------
+
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+Total Upload: 300.61 KiB / gzip: 62.32 KiB
+Worker Startup Time: 26 ms
+Your worker has access to the following bindings:
+- Durable Objects:
+  - BROADCASTER: BroadcasterDO
+- D1 Databases:
+  - DB: swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef)
+- AI:
+  - Name: AI
+- Vars:
+  - ENVIRONMENT: "production"
+  - JWT_SECRET: "swachhsetu_jwt_secret_free_tier_2026_..."
+Uploaded swachhsetu-api (9.69 sec)
+Deployed swachhsetu-api triggers (2.21 sec)
+  https://swachhsetu-api.summar-adm.workers.dev
+  schedule: */5 * * * *
+Current Version ID: 9ebdb13b-1710-4e97-8422-542f373b8543

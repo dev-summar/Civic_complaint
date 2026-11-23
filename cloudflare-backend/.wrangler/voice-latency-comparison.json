@@ -1,0 +1,17 @@
+{
+  "before": {
+    "samples": 9,
+    "medianMs": 1469,
+    "minMs": 1115,
+    "maxMs": 3849,
+    "allPassed": true
+  },
+  "after": {
+    "samples": 9,
+    "medianMs": 1663,
+    "minMs": 1210,
+    "maxMs": 2162,
+    "allPassed": true
+  },
+  "scope": "Single-run API round-trip samples; excludes phone recognition and audio startup. Not a device latency guarantee."
+}

@@ -1,0 +1,9 @@
+# Copy to .dev.vars (never commit). Production: npm run secrets:voice
+VOICE_API_KEY=
+# Bhashini Udyat → App → Inference API key (Authorization header for Dhruva)
+BHASHINI_INFERENCE_API_KEY=
+# Optional alias — code also reads BHASHINI_API_KEY
+BHASHINI_API_KEY=
+# Google AI Studio key for Kashmiri/Dogri TTS (gemini-3.1-flash-tts-preview + fallbacks)
+# Enable billing on the Google AI project so free-tier daily TTS limits do not break production.
+GEMINI_API_KEY=

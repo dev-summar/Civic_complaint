@@ -1,0 +1,411 @@
+
+--- 2026-11-05T08:37:51.180Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\flow-labels.log"
+---
+
+--- 2026-11-05T08:37:51.179Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793867871179,"properties":{"amplitude_session_id":1793867871172,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-05T08:37:51.183Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-05T08:37:51.202Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-05T08:37:52.885Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-05T08:37:52.901Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-05T08:37:52.901Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-05T08:37:52.904Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-05T08:37:52.904Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-05T08:37:52.905Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/query
+---
+
+--- 2026-11-05T08:37:52.905Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:37:52.905Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:37:52.905Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-05T08:37:57.237Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-05T08:37:57.239Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:37:57.239Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-05T08:37:57.239Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-05T08:37:57.245Z log
+🚣 Executed 11 commands in 6.39ms
+---
+
+--- 2026-11-05T08:37:57.245Z log
+[
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.8609
+      },
+      "duration": 0.8609,
+      "changes": 12,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 18,
+      "rows_written": 12,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.3772
+      },
+      "duration": 0.3772,
+      "changes": 1,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 1,
+      "rows_written": 1,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.3409
+      },
+      "duration": 0.3409,
+      "changes": 1,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 1,
+      "rows_written": 1,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 1.6546
+      },
+      "duration": 1.6546,
+      "changes": 1,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 1,
+      "rows_written": 1,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.8216
+      },
+      "duration": 0.8216,
+      "changes": 1,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 3,
+      "rows_written": 1,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.2414
+      },
+      "duration": 0.2414,
+      "changes": 1,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 2,
+      "rows_written": 1,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.3804
+      },
+      "duration": 0.3804,
+      "changes": 3,
+      "last_row_id": 0,
+      "changed_db": true,
+      "size_after": 323584,
+      "rows_read": 16,
+      "rows_written": 3,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "name": "Animal Removal Worker",
+        "role": "field_worker",
+        "email": "workers.dead-animals@gmail.com"
+      },
+      {
+        "name": "Drainage Worker",
+        "role": "field_worker",
+        "email": "workers@gmail.com"
+      },
+      {
+        "name": "Garbage Collection Worker",
+        "role": "field_worker",
+        "email": "workers.garbage@gmail.com"
+      },
+      {
+        "name": "General Response Worker",
+        "role": "field_worker",
+        "email": "workers.others@gmail.com"
+      },
+      {
+        "name": "Illegal Dumping Worker",
+        "role": "field_worker",
+        "email": "workers.illegal-dumping@gmail.com"
+      },
+      {
+        "name": "Pothole Repair Worker",
+        "role": "field_worker",
+        "email": "workers.potholes@gmail.com"
+      },
+      {
+        "name": "Public Toilets Worker",
+        "role": "field_worker",
+        "email": "workers.public-toilets@gmail.com"
+      },
+      {
+        "name": "Road Repair Worker",
+        "role": "field_worker",
+        "email": "workers.road-damage@gmail.com"
+      },
+      {
+        "name": "Snow Clearance Worker",
+        "role": "field_worker",
+        "email": "workers.snow-blockage@gmail.com"
+      },
+      {
+        "name": "Streetlight Repair Worker",
+        "role": "field_worker",
+        "email": "workers.broken-streetlights@gmail.com"
+      },
+      {
+        "name": "Tree Clearance Worker",
+        "role": "field_worker",
+        "email": "workers.fallen-trees@gmail.com"
+      },
+      {
+        "name": "Water Supply Worker",
+        "role": "field_worker",
+        "email": "workers.water-leakage@gmail.com"
+      },
+      {
+        "name": "Duty Officer",
+        "role": "officer",
+        "email": "officer@gmail.com"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.5057
+      },
+      "duration": 0.5057,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 323584,
+      "rows_read": 31,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "name": "Civic Response"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.232
+      },
+      "duration": 0.232,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 323584,
+      "rows_read": 1,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "name": "Jammu Service Area"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.2402
+      },
+      "duration": 0.2402,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 323584,
+      "rows_read": 1,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "id": "cmp-bec0eab0-aa97-438a-a48e-20b686456241",
+        "title": "Overflowing drain",
+        "status": "assigned"
+      },
+      {
+        "id": "cmp-aab9b3fd-27d5-4353-957b-1e3401bb185d",
+        "title": "Testing",
+        "status": "assigned"
+      },
+      {
+        "id": "cmp-dadc6f42-4a2e-4e06-a96f-92adbfc4a977",
+        "title": "Test",
+        "status": "assigned"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.7348
+      },
+      "duration": 0.7348,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 323584,
+      "rows_read": 6,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-05T08:37:57.252Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793867877252,"properties":{"amplitude_session_id":1793867871172,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{},"durationMs":6107,"durationSeconds":6.107,"durationMinutes":0.10178333333333334}}.
+---

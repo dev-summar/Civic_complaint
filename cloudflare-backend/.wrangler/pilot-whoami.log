@@ -1,0 +1,261 @@
+
+--- 2026-11-04T14:34:02.119Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\pilot-whoami.log"
+---
+
+--- 2026-11-04T14:34:02.119Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793802842119,"properties":{"amplitude_session_id":1793802842115,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":[],"argsCombination":"","command":"wrangler whoami","args":{}}}
+---
+
+--- 2026-11-04T14:34:02.128Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T14:34:05.290Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T14:34:05.414Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T14:34:05.427Z log
+Getting User settings...
+---
+
+--- 2026-11-04T14:34:05.428Z debug
+fetching auth token grant_type=refresh_token&refresh_token=cfort_UeGbeKrcCM6ehrwjifN6jlNSuGwKBzasUprda1XkJN4.1gyc8mIz9rm4K59kwMr2mqgxPte73TVcgWcntaaMnXs&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7
+---
+
+--- 2026-11-04T14:34:05.428Z debug
+Checking if domain has Access enabled: dash.cloudflare.com
+---
+
+--- 2026-11-04T14:34:05.428Z debug
+Access switch not cached for: dash.cloudflare.com
+---
+
+--- 2026-11-04T14:34:05.500Z debug
+Caching access switch for: dash.cloudflare.com
+---
+
+--- 2026-11-04T14:34:05.500Z debug
+Fetching auth token from https://dash.cloudflare.com/oauth2/token
+---
+
+--- 2026-11-04T14:34:07.257Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user
+---
+
+--- 2026-11-04T14:34:07.257Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:07.257Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:07.257Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T14:34:08.101Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T14:34:08.102Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:08.102Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:08.102Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T14:34:08.103Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts?page=1
+---
+
+--- 2026-11-04T14:34:08.103Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:08.103Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:08.103Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T14:34:08.719Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T14:34:08.719Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:08.719Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T14:34:08.719Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T14:34:08.719Z log
+👋 You are logged in with an OAuth Token, associated with the email summar.adm@mietjammu.in.
+---
+
+--- 2026-11-04T14:34:08.724Z log
+┌───────────────────────────────────┬──────────────────────────────────┐
+│ Account Name                      │ Account ID                       │
+├───────────────────────────────────┼──────────────────────────────────┤
+│ Summar.adm@mietjammu.in's Account │ 58c09aef7bb2c7d543013e92ffdac232 │
+└───────────────────────────────────┴──────────────────────────────────┘
+---
+
+--- 2026-11-04T14:34:08.725Z log
+🔓 Token Permissions:
+---
+
+--- 2026-11-04T14:34:08.725Z log
+Scope (Access)
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- user (read)
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- offline_access 
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- account (read)
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- workers (write)
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- workers_kv (write)
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- workers_routes (write)
+---
+
+--- 2026-11-04T14:34:08.725Z log
+- workers_scripts (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- workers_tail (read)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- d1 (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- pages (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- zone (read)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- ssl_certs (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- ai (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- ai-search (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- ai-search (run)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- websearch.run 
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- agent-memory (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- queues (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- pipelines (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- secrets_store (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- artifacts (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- flagship (write)
+---
+
+--- 2026-11-04T14:34:08.726Z log
+- containers (write)
+---
+
+--- 2026-11-04T14:34:08.727Z log
+- cloudchamber (write)
+---
+
+--- 2026-11-04T14:34:08.727Z log
+- connectivity (admin)
+---
+
+--- 2026-11-04T14:34:08.727Z log
+- email_routing (write)
+---
+
+--- 2026-11-04T14:34:08.727Z log
+- email_sending (write)
+---
+
+--- 2026-11-04T14:34:08.727Z log
+- browser (write)
+---
+
+--- 2026-11-04T14:34:08.727Z log
+- challenge-widgets.write 
+---
+
+--- 2026-11-04T14:34:08.729Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"view accounts","timestamp":1793802848728,"properties":{"category":"Workers","wranglerVersion":"3.114.17","os":"win32:x64"}}
+---
+
+--- 2026-11-04T14:34:08.733Z debug
+Metrics dispatcher: Posting data {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793802848733,"properties":{"amplitude_session_id":1793802842115,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":[],"argsCombination":"","command":"wrangler whoami","args":{},"durationMs":6632,"durationSeconds":6.632,"durationMinutes":0.11053333333333333}}
+---

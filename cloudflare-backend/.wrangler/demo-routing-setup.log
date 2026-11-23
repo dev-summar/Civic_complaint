@@ -1,0 +1,745 @@
+
+--- 2026-11-04T15:09:06.477Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\demo-routing-setup.log"
+---
+
+--- 2026-11-04T15:09:06.476Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793804946476,"properties":{"amplitude_session_id":1793804946473,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["file","json","remote","yes"],"argsCombination":"file, json, remote, yes","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-04T15:09:06.479Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T15:09:06.490Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T15:09:07.039Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T15:09:07.047Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-04T15:09:07.047Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-04T15:09:07.052Z warn
+▲ [WARNING] ⚠️ This process may take some time, during which your D1 database will be unavailable to serve queries.
+
+
+---
+
+--- 2026-11-04T15:09:07.052Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-04T15:09:07.052Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-04T15:09:07.055Z log
+Note: if the execution fails to complete, your DB will return to its original state and you can safely retry.
+---
+
+--- 2026-11-04T15:09:07.056Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/import
+---
+
+--- 2026-11-04T15:09:07.056Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:07.056Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:07.056Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T15:09:08.505Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T15:09:08.505Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:08.505Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:08.505Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T15:09:09.683Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/import
+---
+
+--- 2026-11-04T15:09:09.683Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:09.683Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:09.683Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T15:09:10.840Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T15:09:10.840Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:10.841Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:10.841Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T15:09:10.841Z log
+🌀 Starting import...
+---
+
+--- 2026-11-04T15:09:10.841Z log
+🌀 Processed 39 queries.
+---
+
+--- 2026-11-04T15:09:10.841Z log
+🚣 Executed 39 queries in 4.02ms (0 rows read, 105 rows written)
+   Database is currently at bookmark 00000054-0000000b-00005119-b33114ff0d8048f73a801b2f277e256a.
+---
+
+--- 2026-11-04T15:09:10.841Z log
+[
+  {
+    "results": [
+      {
+        "Total queries executed": 39,
+        "Rows read": 0,
+        "Rows written": 105,
+        "Database size (MB)": "0.31"
+      }
+    ],
+    "success": true,
+    "finalBookmark": "00000054-0000000b-00005119-b33114ff0d8048f73a801b2f277e256a",
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 4.024
+      },
+      "duration": 4.024,
+      "changes": 40,
+      "last_row_id": 12,
+      "changed_db": true,
+      "size_after": 311296,
+      "rows_read": 0,
+      "rows_written": 105,
+      "num_tables": 13,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-04T15:09:10.845Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793804950845,"properties":{"amplitude_session_id":1793804946473,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["file","json","remote","yes"],"argsCombination":"file, json, remote, yes","command":"wrangler d1 execute","args":{},"durationMs":4389,"durationSeconds":4.389,"durationMinutes":0.07315}}.
+---
+
+--- 2026-11-04T15:09:36.092Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\demo-routing-setup.log"
+---
+
+--- 2026-11-04T15:09:36.091Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793804976091,"properties":{"amplitude_session_id":1793804976088,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-04T15:09:36.094Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T15:09:36.105Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T15:09:36.165Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T15:09:36.169Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-04T15:09:36.174Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-04T15:09:36.177Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-04T15:09:36.177Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-04T15:09:36.177Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/query
+---
+
+--- 2026-11-04T15:09:36.178Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:36.178Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:36.178Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T15:09:37.043Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T15:09:37.043Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:37.043Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:37.043Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T15:09:37.045Z log
+🚣 Executed 1 command in 0.31ms
+---
+
+--- 2026-11-04T15:09:37.045Z log
+[
+  {
+    "results": [
+      {
+        "password": "Demo-5ABBC62A5794BABD133DDFF7"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.3058
+      },
+      "duration": 0.3058,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 311296,
+      "rows_read": 1,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-04T15:09:37.050Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793804977050,"properties":{"amplitude_session_id":1793804976088,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{},"durationMs":978,"durationSeconds":0.978,"durationMinutes":0.0163}}.
+---
+
+--- 2026-11-04T15:09:37.809Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\demo-routing-setup.log"
+---
+
+--- 2026-11-04T15:09:37.809Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793804977809,"properties":{"amplitude_session_id":1793804977806,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-04T15:09:37.812Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T15:09:37.823Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T15:09:37.880Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T15:09:37.884Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-04T15:09:37.884Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-04T15:09:37.886Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-04T15:09:37.886Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-04T15:09:37.887Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/query
+---
+
+--- 2026-11-04T15:09:37.887Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:37.887Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:37.887Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T15:09:38.196Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T15:09:38.197Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:38.197Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T15:09:38.197Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T15:09:38.199Z log
+🚣 Executed 1 command in 0.46ms
+---
+
+--- 2026-11-04T15:09:38.199Z log
+[
+  {
+    "results": [
+      {
+        "category": "broken_streetlights",
+        "email": "demo.broken-streetlights@demo.rabtajk.gov.in",
+        "name": "Demo Streetlight Repair Worker"
+      },
+      {
+        "category": "dead_animals",
+        "email": "demo.dead-animals@demo.rabtajk.gov.in",
+        "name": "Demo Animal Removal Worker"
+      },
+      {
+        "category": "fallen_trees",
+        "email": "demo.fallen-trees@demo.rabtajk.gov.in",
+        "name": "Demo Tree Clearance Worker"
+      },
+      {
+        "category": "garbage",
+        "email": "demo.garbage@demo.rabtajk.gov.in",
+        "name": "Demo Garbage Collection Worker"
+      },
+      {
+        "category": "illegal_dumping",
+        "email": "demo.illegal-dumping@demo.rabtajk.gov.in",
+        "name": "Demo Illegal Dumping Worker"
+      },
+      {
+        "category": "others",
+        "email": "demo.others@demo.rabtajk.gov.in",
+        "name": "Demo General Response Worker"
+      },
+      {
+        "category": "potholes",
+        "email": "demo.potholes@demo.rabtajk.gov.in",
+        "name": "Demo Pothole Repair Worker"
+      },
+      {
+        "category": "public_toilets",
+        "email": "demo.public-toilets@demo.rabtajk.gov.in",
+        "name": "Demo Public Toilets Worker"
+      },
+      {
+        "category": "road_damage",
+        "email": "demo.road-damage@demo.rabtajk.gov.in",
+        "name": "Demo Road Repair Worker"
+      },
+      {
+        "category": "sewage_overflow",
+        "email": "demo.sewage-overflow@demo.rabtajk.gov.in",
+        "name": "Demo Drainage Worker"
+      },
+      {
+        "category": "snow_blockage",
+        "email": "demo.snow-blockage@demo.rabtajk.gov.in",
+        "name": "Demo Snow Clearance Worker"
+      },
+      {
+        "category": "water_leakage",
+        "email": "demo.water-leakage@demo.rabtajk.gov.in",
+        "name": "Demo Water Supply Worker"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.4599
+      },
+      "duration": 0.4599,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 311296,
+      "rows_read": 61,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-04T15:09:38.202Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793804978202,"properties":{"amplitude_session_id":1793804977806,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{},"durationMs":415,"durationSeconds":0.415,"durationMinutes":0.0069166666666666664}}.
+---
+
+--- 2026-11-04T16:10:38.416Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\demo-routing-setup.log"
+---
+
+--- 2026-11-04T16:10:38.416Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793808638416,"properties":{"amplitude_session_id":1793808638413,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-04T16:10:38.419Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T16:10:38.429Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T16:10:38.488Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T16:10:38.492Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-04T16:10:38.492Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-04T16:10:38.494Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-04T16:10:38.494Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-04T16:10:38.494Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/query
+---
+
+--- 2026-11-04T16:10:38.494Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:38.494Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:38.494Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T16:10:39.175Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T16:10:39.176Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:39.176Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:39.176Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T16:10:39.177Z log
+🚣 Executed 1 command in 0.57ms
+---
+
+--- 2026-11-04T16:10:39.177Z log
+[
+  {
+    "results": [
+      {
+        "password": "Demo-5ABBC62A5794BABD133DDFF7"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.5677
+      },
+      "duration": 0.5677,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 311296,
+      "rows_read": 1,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-04T16:10:39.180Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793808639180,"properties":{"amplitude_session_id":1793808638413,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{},"durationMs":785,"durationSeconds":0.785,"durationMinutes":0.013083333333333334}}.
+---
+
+--- 2026-11-04T16:10:39.879Z debug
+🪵  Writing logs to "C:\Users\summa\Downloads\MIET-PROJECTS\Jk-clean-app\cloudflare-backend\.wrangler\demo-routing-setup.log"
+---
+
+--- 2026-11-04T16:10:39.879Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command started","timestamp":1793808639879,"properties":{"amplitude_session_id":1793808639876,"amplitude_event_id":0,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{}}}.
+---
+
+--- 2026-11-04T16:10:39.882Z debug
+.env file not found at ".env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-11-04T16:10:39.894Z log
+
+ ⛅️ wrangler 3.114.17 (update available 4.157.0)
+------------------------------------------------
+
+---
+
+--- 2026-11-04T16:10:39.954Z warn
+▲ [WARNING] The version of Wrangler you are using is now out-of-date.
+
+  Please update to the latest version to prevent critical errors.
+  Run `npm install --save-dev wrangler@4` to update to the latest version.
+  After installation, run Wrangler with `npx wrangler`.
+
+
+---
+
+--- 2026-11-04T16:10:39.963Z debug
+No experimental flag store instantiated
+---
+
+--- 2026-11-04T16:10:39.963Z debug
+Attempted to use flag "RESOURCES_PROVISION" which has not been instantiated
+---
+
+--- 2026-11-04T16:10:39.965Z log
+🌀 Executing on remote database swachhsetu-db (0c922e20-1b37-4b4d-a8dd-74462c18e4ef):
+---
+
+--- 2026-11-04T16:10:39.965Z log
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+---
+
+--- 2026-11-04T16:10:39.965Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/58c09aef7bb2c7d543013e92ffdac232/d1/database/0c922e20-1b37-4b4d-a8dd-74462c18e4ef/query
+---
+
+--- 2026-11-04T16:10:39.965Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:39.965Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:39.965Z debug
+-- END CF API REQUEST
+---
+
+--- 2026-11-04T16:10:40.289Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2026-11-04T16:10:40.290Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:40.290Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2026-11-04T16:10:40.290Z debug
+-- END CF API RESPONSE
+---
+
+--- 2026-11-04T16:10:40.292Z log
+🚣 Executed 1 command in 0.96ms
+---
+
+--- 2026-11-04T16:10:40.292Z log
+[
+  {
+    "results": [
+      {
+        "category": "broken_streetlights",
+        "email": "demo.broken-streetlights@demo.rabtajk.gov.in",
+        "name": "Demo Streetlight Repair Worker"
+      },
+      {
+        "category": "dead_animals",
+        "email": "demo.dead-animals@demo.rabtajk.gov.in",
+        "name": "Demo Animal Removal Worker"
+      },
+      {
+        "category": "fallen_trees",
+        "email": "demo.fallen-trees@demo.rabtajk.gov.in",
+        "name": "Demo Tree Clearance Worker"
+      },
+      {
+        "category": "garbage",
+        "email": "demo.garbage@demo.rabtajk.gov.in",
+        "name": "Demo Garbage Collection Worker"
+      },
+      {
+        "category": "illegal_dumping",
+        "email": "demo.illegal-dumping@demo.rabtajk.gov.in",
+        "name": "Demo Illegal Dumping Worker"
+      },
+      {
+        "category": "others",
+        "email": "demo.others@demo.rabtajk.gov.in",
+        "name": "Demo General Response Worker"
+      },
+      {
+        "category": "potholes",
+        "email": "demo.potholes@demo.rabtajk.gov.in",
+        "name": "Demo Pothole Repair Worker"
+      },
+      {
+        "category": "public_toilets",
+        "email": "demo.public-toilets@demo.rabtajk.gov.in",
+        "name": "Demo Public Toilets Worker"
+      },
+      {
+        "category": "road_damage",
+        "email": "demo.road-damage@demo.rabtajk.gov.in",
+        "name": "Demo Road Repair Worker"
+      },
+      {
+        "category": "sewage_overflow",
+        "email": "demo.sewage-overflow@demo.rabtajk.gov.in",
+        "name": "Demo Drainage Worker"
+      },
+      {
+        "category": "snow_blockage",
+        "email": "demo.snow-blockage@demo.rabtajk.gov.in",
+        "name": "Demo Snow Clearance Worker"
+      },
+      {
+        "category": "water_leakage",
+        "email": "demo.water-leakage@demo.rabtajk.gov.in",
+        "name": "Demo Water Supply Worker"
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "APAC",
+      "served_by_colo": "HKG",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.9619
+      },
+      "duration": 0.9619,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 311296,
+      "rows_read": 61,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]
+---
+
+--- 2026-11-04T16:10:40.295Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"deviceId":"78eb2031-13d7-49e1-9988-dc5968f22b17","event":"wrangler command completed","timestamp":1793808640295,"properties":{"amplitude_session_id":1793808639876,"amplitude_event_id":1,"wranglerVersion":"3.114.17","osPlatform":"Windows","osVersion":"Windows 11 Home Single Language","nodeVersion":22,"isFirstUsage":false,"configFileType":"toml","isCI":false,"isPagesCI":false,"isWorkersCI":false,"isInteractive":false,"hasAssets":false,"argsUsed":["command","json","remote"],"argsCombination":"command, json, remote","command":"wrangler d1 execute","args":{},"durationMs":437,"durationSeconds":0.437,"durationMinutes":0.0072833333333333335}}.
+---

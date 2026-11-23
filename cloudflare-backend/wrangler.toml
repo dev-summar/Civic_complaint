@@ -1,0 +1,29 @@
+name = "swachhsetu-api"
+account_id = "58c09aef7bb2c7d543013e92ffdac232"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+JWT_SECRET = "swachhsetu_jwt_secret_free_tier_2026_super_secure"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "swachhsetu-db"
+database_id = "0c922e20-1b37-4b4d-a8dd-74462c18e4ef"
+
+[ai]
+binding = "AI"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[durable_objects]
+bindings = [
+  { name = "BROADCASTER", class_name = "BroadcasterDO" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["BroadcasterDO"]

@@ -1,0 +1,370 @@
+{
+  "wallTime": 809,
+  "cpuTime": 16,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "c740137a-2dd5-4993-81a7-d3d396dc32eb"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794480312924,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/auth/login",
+      "method": "POST",
+      "headers": {
+        "accept-encoding": "gzip, br",
+        "cf-connecting-ip": "115.247.127.154",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a594f2236c5afd71",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "50",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26300; en-IN) PowerShell/7.6.9",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "115.247.127.154"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "Host",
+          "User-Agent",
+          "Accept-Encoding",
+          "Content-Type",
+          "Content-Length"
+        ],
+        "clientTcpRtt": 101,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 55836,
+        "asOrganization": "Reliance Jio Infocomm Limited",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "FQ3KBnaiTw6wq0hQLduGf2JASh6NEDFeRDX362WBRPo=",
+        "tlsClientCiphersSha1": "kTkJ+HAwBvIuoPFncb1wEDLcgfg=",
+        "tlsClientExtensionsSha1": "Bxwn0Bs0z+5dY69ZcqleTRGmlpE=",
+        "tlsClientExtensionsSha1Le": "sb2ftGg4/laBHA9Q/MJ4X/0+cJY=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "315196742cfd7d0a2bd9f64c927d1896e41776b1efef65b13c840085ea3b19b8b6f411597455c7c0a9229637ad63eb6e",
+          "serverHandshake": "7b00f589b0ee9e792805f970d67f2470636ca926a8eba857a45c64a5cbdc4ea7b5e770abceb4f616c33f855ec30e19c5",
+          "clientFinished": "658a78974299796f6ea12c5999a930770c08b1edcdc104121a508764463d008603474a3347f1903ad80e9e7585385d78",
+          "serverFinished": "18d6354676effc937ab0c8139be2e07afd3ed054fbb88b09a5ddd8ac2534b734b8721ffff1ad9adfdf01f085efe4bdfc"
+        },
+        "tlsClientHelloLength": "455",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 18563
+        }
+      }
+    },
+    "response": {
+      "status": 200
+    }
+  }
+}
+{
+  "wallTime": 3664,
+  "cpuTime": 29,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "c740137a-2dd5-4993-81a7-d3d396dc32eb"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [
+    {
+      "message": [
+        "Photo assessment unavailable",
+        {
+          "type": "Error",
+          "speechLanguage": true
+        }
+      ],
+      "level": "warn",
+      "timestamp": 1794480318169
+    }
+  ],
+  "eventTimestamp": 1794480314517,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/classify",
+      "method": "POST",
+      "headers": {
+        "accept-encoding": "gzip, br",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "115.247.127.154",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a594f22bde25479b",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "170526",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26300; en-IN) PowerShell/7.6.9",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "115.247.127.154"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "Host",
+          "Authorization",
+          "User-Agent",
+          "Accept-Encoding",
+          "Content-Type",
+          "Content-Length"
+        ],
+        "clientTcpRtt": 93,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 55836,
+        "asOrganization": "Reliance Jio Infocomm Limited",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "nHBbriy0iy5K16v5s3BXX/eZPDrwaQzo+0SPvmMtJjI=",
+        "tlsClientCiphersSha1": "kTkJ+HAwBvIuoPFncb1wEDLcgfg=",
+        "tlsClientExtensionsSha1": "lf5q7awZSBiIczJVKjOX/yrO1/8=",
+        "tlsClientExtensionsSha1Le": "GEbde1I7IelzRL2Iu/DQxSXdJak=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "22e43dbef8934b246c867423926e5dbd1ebbbda4a8284117613afd43172e64217981bd494dc74f33a65c927a1b0cacc6",
+          "serverHandshake": "019958d75be4671d7301edc9fda93a88636c9b215056b7ec4fa3d87d47f42f6e5b5e9940357797ee69be2fd456c99f79",
+          "clientFinished": "128d9bab0a481cd2a74035f7d1cbd63a8316db15cbc176820cf18a64f5e45f140f58889af60af61cbe97a506d82deefc",
+          "serverFinished": "59241f4dacfbf14b77bd1835bd8edff5af4c35652868823dfc85ac8aa3773e810e0c27e5d5212a5beaa526f58c0971bb"
+        },
+        "tlsClientHelloLength": "710",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 15583
+        }
+      }
+    },
+    "response": {
+      "status": 503
+    }
+  }
+}
+{
+  "wallTime": 4237,
+  "cpuTime": 37,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "scriptVersion": {
+    "id": "c740137a-2dd5-4993-81a7-d3d396dc32eb"
+  },
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [
+    {
+      "message": [
+        "Photo assessment unavailable",
+        {
+          "type": "Error",
+          "speechLanguage": true
+        }
+      ],
+      "level": "warn",
+      "timestamp": 1794480323271
+    }
+  ],
+  "eventTimestamp": 1794480319037,
+  "event": {
+    "request": {
+      "url": "https://swachhsetu-api.summar-adm.workers.dev/api/v1/ai/classify",
+      "method": "POST",
+      "headers": {
+        "accept-encoding": "gzip, br",
+        "authorization": "REDACTED",
+        "cf-connecting-ip": "115.247.127.154",
+        "cf-ipcountry": "IN",
+        "cf-ray": "a594f247193ffd1f",
+        "cf-visitor": "{\"scheme\":\"https\"}",
+        "connection": "Keep-Alive",
+        "content-length": "170526",
+        "content-type": "application/json",
+        "host": "swachhsetu-api.summar-adm.workers.dev",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26300; en-IN) PowerShell/7.6.9",
+        "x-forwarded-proto": "https",
+        "x-real-ip": "115.247.127.154"
+      },
+      "cf": {
+        "httpProtocol": "HTTP/1.1",
+        "clientAcceptEncoding": "gzip, deflate, br",
+        "requestPriority": "",
+        "edgeRequestKeepAliveStatus": 1,
+        "requestHeaderNames": [
+          "Host",
+          "Authorization",
+          "User-Agent",
+          "Accept-Encoding",
+          "Content-Type",
+          "Content-Length"
+        ],
+        "clientTcpRtt": 97,
+        "clientQuicRtt": 0,
+        "colo": "SIN",
+        "asn": 55836,
+        "asOrganization": "Reliance Jio Infocomm Limited",
+        "country": "IN",
+        "isEUCountry": false,
+        "city": "Jammu",
+        "continent": "AS",
+        "region": "Jammu and Kashmir",
+        "regionCode": "JK",
+        "timezone": "Asia/Kolkata",
+        "longitude": "74.86167",
+        "latitude": "32.73528",
+        "postalCode": "180002",
+        "tlsVersion": "TLSv1.3",
+        "tlsCipher": "AEAD-AES256-GCM-SHA384",
+        "tlsClientRandom": "BIryC07fmGluH5QHuCQF0OgQc1tGcKMUbqFBZoOPBlo=",
+        "tlsClientCiphersSha1": "kTkJ+HAwBvIuoPFncb1wEDLcgfg=",
+        "tlsClientExtensionsSha1": "lf5q7awZSBiIczJVKjOX/yrO1/8=",
+        "tlsClientExtensionsSha1Le": "GEbde1I7IelzRL2Iu/DQxSXdJak=",
+        "tlsExportedAuthenticator": {
+          "clientHandshake": "321dd5eb15819d5808a47db880fc652e22a90c07963699e87357ecfc2d1320a054d23ac685bdfc6db96f51a06791bdbe",
+          "serverHandshake": "8a12ea352bc0551274ae2c41d5098c45e2e519a9ecb7fc506ae1de96d3af056e30bd5e2183e53d94c60c2428ba6e5b43",
+          "clientFinished": "46929f48f7dbfc384510dbe36086b32f6b0bfcf931386b78edfb5c1b2ff0a7f71dfcf1fb0dc62f6756741046bf882c6b",
+          "serverFinished": "709b2529f5fa4cd4e3d1ec2ed672060fea08e9e9e54f2083855c00061ea3f853e1e7bd73d42e29f4c14c476a5d368c52"
+        },
+        "tlsClientHelloLength": "710",
+        "tlsClientAuth": {
+          "certPresented": "0",
+          "certVerified": "NONE",
+          "certRevoked": "0",
+          "certIssuerDN": "",
+          "certSubjectDN": "",
+          "certIssuerDNRFC2253": "",
+          "certSubjectDNRFC2253": "",
+          "certIssuerDNLegacy": "",
+          "certSubjectDNLegacy": "",
+          "certSerial": "",
+          "certIssuerSerial": "",
+          "certSKI": "",
+          "certIssuerSKI": "",
+          "certFingerprintSHA1": "",
+          "certFingerprintSHA256": "",
+          "certNotBefore": "",
+          "certNotAfter": "",
+          "certRFC9440": "",
+          "certRFC9440TooLarge": false,
+          "certChainRFC9440": "",
+          "certChainRFC9440TooLarge": false
+        },
+        "verifiedBotCategory": "",
+        "edgeL4": {
+          "deliveryRate": 9742
+        }
+      }
+    },
+    "response": {
+      "status": 503
+    }
+  }
+}
+{
+  "wallTime": 3334,
+  "cpuTime": 16,
+  "truncated": false,
+  "executionModel": "stateless",
+  "outcome": "ok",
+  "tailAttributes": {
+    "cron": "*/5 * * * *",
+    "scheduledTime": 1794480335645
+  },
+  "scriptVersion": {
+    "id": "c740137a-2dd5-4993-81a7-d3d396dc32eb"
+  },
+  "entrypoint": "default",
+  "scriptName": "swachhsetu-api",
+  "diagnosticsChannelEvents": [],
+  "exceptions": [],
+  "logs": [],
+  "eventTimestamp": 1794480336364,
+  "event": {
+    "cron": "*/5 * * * *",
+    "scheduledTime": 1794480335645
+  }
+}

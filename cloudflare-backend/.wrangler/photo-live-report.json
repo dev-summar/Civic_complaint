@@ -1,0 +1,230 @@
+{
+  "testedAt": "2026-11-12T10:56:26.649Z",
+  "results": [
+    {
+      "file": "photo-check.jpg",
+      "language": "en",
+      "status": "no_clear_issue",
+      "categories": [
+        "others"
+      ],
+      "elapsedMs": 4553,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true
+      },
+      "data": {
+        "status": "no_clear_issue",
+        "confidence": "high",
+        "category": "others",
+        "priority": "low",
+        "title": "",
+        "summary": "",
+        "spokenSummary": "I cannot see a clear civic issue in this photo. Describe the problem or try a closer photo.",
+        "evidence": "a wet road with yellow and white markings",
+        "message": "I cannot see a clear civic issue in this photo. Describe the problem or try a closer photo."
+      }
+    },
+    {
+      "file": "photo-litter.jpg",
+      "language": "en",
+      "status": "no_clear_issue",
+      "categories": [
+        "others"
+      ],
+      "elapsedMs": 2522,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true
+      },
+      "data": {
+        "status": "no_clear_issue",
+        "confidence": "low",
+        "category": "others",
+        "priority": "low",
+        "title": "",
+        "summary": "",
+        "spokenSummary": "I cannot see a clear civic issue in this photo. Describe the problem or try a closer photo.",
+        "evidence": "a green beer bottle on a table",
+        "message": "I cannot see a clear civic issue in this photo. Describe the problem or try a closer photo."
+      }
+    },
+    {
+      "file": "photo-people.jpg",
+      "language": "en",
+      "status": "no_clear_issue",
+      "categories": [
+        "others"
+      ],
+      "elapsedMs": 3546,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true
+      },
+      "data": {
+        "status": "no_clear_issue",
+        "confidence": "low",
+        "category": "others",
+        "priority": "low",
+        "title": "",
+        "summary": "",
+        "spokenSummary": "I cannot see a clear civic issue in this photo. Describe the problem or try a closer photo.",
+        "evidence": "blurry background with two men in suits",
+        "message": "I cannot see a clear civic issue in this photo. Describe the problem or try a closer photo."
+      }
+    },
+    {
+      "file": "photo-taco-40.jpg",
+      "language": "en",
+      "status": "issue_visible",
+      "categories": [
+        "garbage"
+      ],
+      "elapsedMs": 2629,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true,
+        "conversationalDraft": true
+      },
+      "data": {
+        "status": "issue_visible",
+        "confidence": "high",
+        "category": "garbage",
+        "priority": "low",
+        "title": "Litter on the ground",
+        "summary": "A green bottle is visible on the ground.",
+        "spokenSummary": "A green bottle is visible on the ground.",
+        "evidence": "a green bottle on the ground"
+      },
+      "chat": {
+        "success": true,
+        "data": {
+          "reply": "Got it. Check the details, then tap the problem’s location on the map.",
+          "spokenReply": "Got it. Check the details, then tap the problem’s location on the map.",
+          "draft": {
+            "title": "Litter on the ground",
+            "description": "A green bottle is visible on the ground.",
+            "category": "garbage"
+          }
+        }
+      }
+    },
+    {
+      "file": "photo-pothole.jpg",
+      "language": "en",
+      "status": "issue_visible",
+      "categories": [
+        "road_damage",
+        "potholes"
+      ],
+      "elapsedMs": 9422,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true
+      },
+      "data": {
+        "status": "issue_visible",
+        "confidence": "high",
+        "category": "potholes",
+        "priority": "medium",
+        "title": "Potholes on road",
+        "summary": "Multiple potholes on road surface",
+        "spokenSummary": "Multiple potholes on road surface",
+        "evidence": "a road with multiple potholes"
+      }
+    },
+    {
+      "file": "photo-taco-200.jpg",
+      "language": "hi",
+      "status": "issue_visible",
+      "categories": [
+        "garbage"
+      ],
+      "elapsedMs": 7503,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true,
+        "conversationalDraft": true
+      },
+      "data": {
+        "status": "issue_visible",
+        "confidence": "high",
+        "category": "garbage",
+        "priority": "low",
+        "title": "जमीन पर कचरा",
+        "summary": "जमीन पर एक कचरा है।",
+        "spokenSummary": "जमीन पर एक कचरा है।",
+        "evidence": "a piece of trash on the ground"
+      },
+      "chat": {
+        "success": true,
+        "data": {
+          "reply": "ठीक है। शिकायत की जानकारी जाँच लें, फिर नक्शे पर समस्या की जगह चुनें।",
+          "spokenReply": "ठीक है। शिकायत की जानकारी जाँच लें, फिर नक्शे पर समस्या की जगह चुनें।",
+          "draft": {
+            "title": "जमीन पर कचरा",
+            "description": "जमीन पर एक कचरा है।",
+            "category": "garbage"
+          }
+        }
+      }
+    },
+    {
+      "file": "photo-taco-40.jpg",
+      "language": "hinglish",
+      "status": "issue_visible",
+      "categories": [
+        "garbage"
+      ],
+      "elapsedMs": 7591,
+      "checks": {
+        "http": true,
+        "status": true,
+        "category": true,
+        "negativeDoesNotDraft": true,
+        "speech": true,
+        "conversationalDraft": true
+      },
+      "data": {
+        "status": "issue_visible",
+        "confidence": "high",
+        "category": "garbage",
+        "priority": "low",
+        "title": "Pher gaye hara botl",
+        "summary": "Zameen par ek hara botl dikhayi dene wala hai.",
+        "spokenSummary": "जमीन पर एक हरा बोतल दिखाई दे रहा है।",
+        "evidence": "a green bottle on the ground"
+      },
+      "chat": {
+        "success": true,
+        "data": {
+          "reply": "Theek hai. Complaint ki details check kar lein, phir map par problem ki jagah chunein.",
+          "spokenReply": "ठीक है। कम्प्लेंट की डिटेल्स चेक कर लें, फिर मैप पर प्रॉब्लम की जगह चुनें।",
+          "draft": {
+            "title": "Pher gaye hara botl",
+            "description": "Zameen par ek hara botl dikhayi dene wala hai.",
+            "category": "garbage"
+          }
+        }
+      }
+    }
+  ]
+}
